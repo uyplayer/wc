@@ -1,0 +1,11 @@
+So what is happening here? The -c flag tells GCC 
+to only compile the C file. The output of that process 
+is a so called object file, which typically has the file
+ extension .o or sometimes .obj. We compile both C files and 
+ the result is two object files which we have to link to get 
+ our executable. The compiling and linking of the C files was
+  done by the compiler all the time internally, just like the 
+  preprocessing which we made visible in previous chapters by
+   using the -E flag. There is actually one more build step 
+   that is happening in the background - the translation. 
+   We can get the intermediate result with the -S flag when using GCC.
