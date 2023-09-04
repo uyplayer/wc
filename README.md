@@ -1,7 +1,5 @@
 # wc-tool
 
-![Project Image](project_image.png)
-
 ---
 
 ## Table of Contents
